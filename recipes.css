@@ -1,0 +1,37 @@
+body{ 
+    margin:0;
+    padding: 20px;
+    background-color:#F7ECED ;
+    font-family:'Times New Roman', Times, serif;
+}
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color:#D6A9B5 ;
+    border-radius: 20px;
+    border: 7px solid #614735;
+    padding: 15px;
+    margin-bottom: 15px;
+    min-height: 120px;
+}
+.nav{ 
+display: flex;
+gap: 30px;
+font-size: 20px;
+justify-content: space-between;
+}
+.welcome h3{
+    font-size: 70px;
+    margin-bottom: 20px;
+    color: #614735;
+}
+.logo img{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 45vh;
+    height:auto;
+    object-fit: contain;
+    
+}
