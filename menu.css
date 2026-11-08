@@ -8,9 +8,9 @@ body{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    background-color:#D6A9B5 ;
+    background-color:#D6A9B5;
     border-radius: 20px;
-    border: 7px solid #614735;
+    border: 7px solid #736165;
     padding: 15px;
     margin-bottom: 15px;
     min-height: 120px;
@@ -35,21 +35,23 @@ justify-content: space-between;
     object-fit: contain;
     
 }
-.menu-section{
+.menu-container{
     display: flex;
     flex-direction: column;
-    align-items: stretch;
+    align-content: center;
     padding: 20px;
     border-radius: 20px;
-    border: 7px solid #614735;
+    border: 7px solid #736165;
     text-align: center;
-    background-color:#D6A9B5;
+    background-color:#debbc1c0;
     min-height: 80vh;
     margin-bottom: 10px;
 
 }
-.menu-section h2{
+.menu-container h2{
     text-align: center;
+    display: flex;
+    justify-content: center;
     font-size: 50px;
     margin-bottom:10px;
     color: #614735;
@@ -65,76 +67,80 @@ p{
     margin-top: 1px;
 }
 
-    
-
 .slideshow video{
-     width: 60%;
+     width: 70%;
     height: 200%;
     border-radius: 10px;
     object-fit: cover;
-    border: 7px solid #614735;
+    border: 7px solid #736165;
     overflow: hidden;
     display:flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
+
     
 }
 /*four categories*/
 .dessert-categories{
-    flex: 1;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 10px;
-    align-items: flex-end;
+     display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    flex-direction: column;
 }
-.category{
-    flex: 1 1 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    border: 3px solid #614735;
-    background-color:#D6A9B5;
-    padding: 10px;
-    min-height: 10px;
-    font-size: 20px;
-    color: #614735;
-    position: relative;
-}
+    
 /*Inside the dessert categories*/
 .dessert-categories img{
     width: 230px;
     height: 160px;
     border-radius: 30px;
-    border: 7px solid #F7ECED;
+    border: 7px solid #736165;
+    object-fit: cover;
 }
-
+.dessert-categories h3{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    color: #614735;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    background-color: #D6A9B5;
+    border-radius: 30px;
+    padding: 5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.bottom-categories h3{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    color: #614735;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    background-color: #D6A9B5;
+    border-radius: 30px;
+    padding: 5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 .bottom-categories{
-    flex: 1 1 40%;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    background-color:#D6A9B5;
     padding: 10px;
     min-height: 10px;
     font-size: 20px;
     color: #614735;
-}
-.bottom-categories img{
-   width: 230px;
-    height: 160px;
-    border-radius: 30px;
-    border: 7px solid #F7ECED;
+    gap: 40px;
+
 }
 .footer{
     display: flex;
     align-items: center;
     justify-content: space-around;
     background-color:#D6A9B5;
-    border: 7px solid #614735;
+    border: 7px solid #736165;
     border-radius: 20px;
     padding: 30px;
     margin-bottom: 10px;
