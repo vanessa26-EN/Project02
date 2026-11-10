@@ -1,6 +1,6 @@
 body{ 
     margin:0;
-    padding: 20px;
+    padding: 15px;
     background-color:#F7ECED ;
     font-family:'Times New Roman', Times, serif;
 }
@@ -8,7 +8,7 @@ body{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    background-color:#D6A9B5;
+    background-color:#debbc1c0;
     border-radius: 20px;
     border: 7px solid #736165;
     padding: 15px;
@@ -17,9 +17,15 @@ body{
 }
 .nav{ 
 display: flex;
-gap: 30px;
+gap: 25px;
 font-size: 20px;
 justify-content: space-between;
+font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+font-weight: light;
+ border-radius: 20px;
+ padding: 10px;
+ background-color:#D6A9B5;
+
 }
 .welcome h3{
     font-size: 70px;
@@ -39,7 +45,7 @@ justify-content: space-between;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color:#D6A9B5;
+    background-color:#debbc1c0;
     border: 7px solid #736165;
     border-radius: 20px;
     padding: 30px;
@@ -53,8 +59,8 @@ justify-content: space-between;
     display: flex;
     flex-direction: column;
     border: 7px solid#736165;
-    background-color:#debbc1c0;
-    border-radius: 20px;    
+    background-color:#D6A9B5;
+    border-radius: 30px;    
     align-items: center;
     justify-content: center;
     padding: 20px;
@@ -72,7 +78,46 @@ justify-content: space-between;
     font-family: baskerville, "Times New Roman", Times, serif;
     font-style: italic;
     text-align: center;
-    display: flex;
-    justify-content: center;
     margin-top: 1px;
+}
+.recipes-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.recipe{
+    border: 7px solid #736165;
+    border-radius: 30px;
+    padding: 5px;
+    width: 300px;
+    text-align: center;
+     background-color: #debbc1c0;
+
+}
+.recipe h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #614735;
+}
+.recipe p{
+    font-size: 20px;
+    color: #614735;
+    font-family: baskerville, "Times New Roman", Times, serif;
+    font-style: normal;
+    text-align: center;
+    margin-top: 1px;
+}
+.recipe img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 30px;
+
+
+    
+}
+.more-info{
+    display: none;
+    
 }
