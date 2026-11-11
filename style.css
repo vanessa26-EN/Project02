@@ -2,6 +2,9 @@ body{
     margin:0;
     padding: 15px;
     background-color:#F7ECED ;
+    background-image: url(images/dots\ .jpeg);
+    background-size: cover;
+    background-position: center;
     font-family:'Times New Roman', Times, serif;
 }
 .header{
@@ -27,6 +30,10 @@ font-weight: light;
  background-color:#D6A9B5;
 
 }
+.nav a{
+    text-decoration: none;
+    color: #614735;
+}
 /*Welcome*/
 .welcome{ 
     display: flex;
@@ -41,10 +48,10 @@ font-weight: light;
     margin-bottom: 15px;
 }
 .welcome h3{
-    font-size: 110px;
+    font-size: 100px;
     margin-bottom: 20px;
-    color: #614735;
-    font-family: Marlon, cursive;
+    color: #8F2C1E;
+    font-family: Marlon;
     font-style: italic;
     text-align: center;
     align-items: center;
@@ -61,10 +68,8 @@ h2{
 p{
     font-size: 30px;
     color: #614735;
-    font-family: baskerville, "Times New Roman", Times, serif;
-    font-style: italic;
+    font-family: bodoni book, serif;
     text-align: center;
-    display: flex;
     justify-content: center;
     margin-top: 1px;
 
@@ -118,7 +123,7 @@ p{
 .favorites h2{
     font-size: 70px;
     width: 100%;
-    color: #614735;
+    color: #8F2C1E;
     text-align: center;
     font-family: Marlon, cursive;
 }

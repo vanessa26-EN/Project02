@@ -1,0 +1,123 @@
+body{ 
+    margin:0;
+    padding: 15px;
+    background-image: url(images/dots\ .jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color:#debbc1c0 ;
+    border-radius: 20px;
+    border: 7px solid #736165;
+    padding: 5px;
+    margin-bottom: 15px;
+    min-height: 120px;
+}
+.nav{ 
+display: flex;
+gap: 25px;
+font-size: 20px;
+justify-content: space-between;
+font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+font-weight: light;
+ border-radius: 20px;
+ padding: 10px;
+ background-color:#D6A9B5;
+
+}
+.nav a{
+    text-decoration: none;
+    color: #614735;
+}
+.logo img{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 45vh;
+    height:auto;
+    object-fit: contain;
+    
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:#debbc1c0;
+    border: 7px solid #736165;
+    border-radius: 20px;
+    padding: 30px;
+    margin-bottom: 10px;
+    min-height: 40px;
+    font-size: 20px;
+    font-family: georgia, sans-serif;
+   
+}
+.recipe-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    box-sizing: border-box;
+    background-color: #D6A9B5;
+    opacity: 0.8;
+    border-radius: 20px;
+    border: 7px solid #736165;
+    padding: 20px;
+    font-family: baskerville, 'Times New Roman', Times, serif ;
+    font-size: 20px;
+    color: #8F2C1E;
+}
+.recipe-container img{
+    max-width: 70%;
+    height: auto;
+    border-radius: 20px;
+    border: 7px solid #736165;
+    object-fit: cover;
+}
+.ingredients{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    background-color: #D6A9B5;
+    border-radius: 20px;
+    padding: 20px;
+    color: #8F2C1E;
+    border: 7px solid #736165;
+}
+.ingredients ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 20px;
+    gap: 10px;
+
+}
+.ingredients h3{
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #8F2C1E;
+}
+.ingredients li{
+    margin-bottom: 5px;
+    flex: 1 1 50%;
+    color: #8F2C1E;
+}
+.directions{
+    display: flex;
+   flex-wrap: wrap;
+    margin-top: 20px 0;
+    background-color: #D6A9B5;
+    border-radius: 20px;
+    border: 7px  #736165;
+    padding: 20px;
+    color: #8F2C1E;
+
+
+}

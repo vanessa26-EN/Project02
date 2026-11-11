@@ -2,6 +2,9 @@ body{
     margin:0;
     padding: 15px;
     background-color:#F7ECED ;
+    background-image: url(images/dots\ .jpeg);
+    background-size: cover;
+    background-position: center;
     font-family:'Times New Roman', Times, serif;
 }
 .header{
@@ -17,9 +20,19 @@ body{
 }
 .nav{ 
 display: flex;
-gap: 30px;
+gap: 25px;
 font-size: 20px;
 justify-content: space-between;
+font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+font-weight: light;
+ border-radius: 20px;
+ padding: 10px;
+ background-color:#D6A9B5;
+
+}
+.nav a{
+    text-decoration: none;
+    color: #614735;
 }
 .welcome h3{
     font-size: 70px;
@@ -52,11 +65,12 @@ justify-content: space-between;
     min-height: 120px;
 }
 .Title h1{
-    font-size: 60px;
-    color: #614735;
+    font-size: 100px;
+    color: #8F2C1E;
     margin-bottom: 10px;
     font-family:Marlon, cursive;
     text-align: center;
+    margin-top: 10px;
 }
 .Title p{
     color: #614735;
@@ -64,8 +78,7 @@ justify-content: space-between;
     color: #614735;
     text-align: center;
     margin-top: 1px;
-    font-family: baskerville, "Times New Roman", Times, serif;
-    font-style: italic;
+   font-family: bodoni book, serif;
 }
 
 .slideshow{

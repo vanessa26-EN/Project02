@@ -2,6 +2,9 @@ body{
     margin:0;
     padding: 15px;
     background-color:#F7ECED ;
+    background-image: url(images/dots\ .jpeg);
+    background-size: cover;
+    background-position: center;
     font-family:'Times New Roman', Times, serif;
 }
 .header{
@@ -20,12 +23,16 @@ display: flex;
 gap: 25px;
 font-size: 20px;
 justify-content: space-between;
-font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+font-family: bodoni book, serif;
 font-weight: light;
  border-radius: 20px;
  padding: 10px;
  background-color:#D6A9B5;
 
+}
+.nav a{
+    text-decoration: none;
+    color: #614735;
 }
 .welcome h3{
     font-size: 70px;
@@ -52,8 +59,8 @@ font-weight: light;
     margin-bottom: 10px;
     min-height: 10px;
     font-size: 20px;
-    font-family: georgia, sans-serif;
-   
+   font-family: bodoni book, serif;
+   font-weight: light;
 }
 .recipes-section{
     display: flex;
@@ -68,17 +75,18 @@ font-weight: light;
 }
 .recipes-section h2{
     text-align: center;
-    font-size: 50px;
-    margin-bottom:10px;
-    color: #614735;
+    font-size: 100px;
+    margin-top:10px;
+    color: #8F2C1E;
+    font-family: Marlon, cursive;
+
 }
 .recipes-section p{
     font-size: 30px;
     color: #614735;
-    font-family: baskerville, "Times New Roman", Times, serif;
-    font-style: italic;
+    font-family: bodoni book, serif;
     text-align: center;
-    margin-top: 1px;
+    margin-top: -50px;
 }
 .recipes-list{
     display: flex;
@@ -96,14 +104,14 @@ font-weight: light;
 
 }
 .recipe h3{
-    font-size: 30px;
+    font-size: 40px;
     margin-bottom: 10px;
     color: #614735;
 }
 .recipe p{
     font-size: 20px;
     color: #614735;
-    font-family: baskerville, "Times New Roman", Times, serif;
+    font-family: bodoni book, serif;
     font-style: normal;
     text-align: center;
     margin-top: 1px;
@@ -111,13 +119,36 @@ font-weight: light;
 .recipe img{
     width: 100%;
     height: auto;
-    object-fit: contain;
+    object-fit: cover;
     border-radius: 30px;
 
-
-    
 }
 .more-info{
     display: none;
     
+}
+.ingredients-instructions{
+    border: 7px solid #736165;
+    border-radius: 30px;
+    padding: 20px;
+    background-color: #debbc1c0;
+    margin-top: 20px;
+}
+.ingredients-instructions a{
+    font-size: 30px;
+    color: #8F2C1E;
+    font-family: baskerville, "Times New Roman", Times, serif;
+    font-style: bold;
+    text-decoration: none;
+    margin-left: 360px;
+    text-align: center;
+
+}
+.ingredients-instructions p{
+    font-size: 20px;
+    color: #614735;
+    font-family: baskerville, "Times New Roman", Times, serif;
+    font-style: normal;
+    text-align: center;
+    margin-top: 1px;
 }
