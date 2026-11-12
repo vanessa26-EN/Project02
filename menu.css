@@ -2,7 +2,7 @@ body{
     margin:0;
     padding: 15px;
     background-color:#F7ECED ;
-    background-image: url(images/dots\ .jpeg);
+    background-image: url(images/lines.jpeg);
     background-size: cover;
     background-position: center;
     font-family:'Times New Roman', Times, serif;
@@ -11,42 +11,47 @@ body{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    background-color: #debbc1c0;
-    border-radius: 20px;
-    border: 7px solid #736165;
-    padding: 10px;
-    margin-bottom: 15px;
+    background-image: url(images/dots\ .jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    border: 2px solid #736165;
     min-height: 120px;
 }
-.nav{ 
-display: flex;
-gap: 25px;
-font-size: 20px;
-justify-content: space-between;
-font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
-font-weight: light;
- border-radius: 20px;
- padding: 10px;
- background-color:#D6A9B5;
-
+.nav-left{
+    justify-content: flex-end;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding: 20px 190px;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: bodoni book, serif;
+    margin-right: 80px;
 }
-.nav a{
+.nav-right{
+    justify-content: flex-start;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 190px;
+    font-weight: bold;
+    font-family: bodoni book, serif;
+    font-style: italic;
+    margin-left: 80px;
+}
+.nav-left a, .nav-right a{
     text-decoration: none;
     color: #614735;
-}
-.welcome h3{
-    font-size: 70px;
-    margin-bottom: 20px;
-    color: #614735;
-}
-.logo img{
-    justify-content: space-between;
     align-items: center;
     display: flex;
-    width: 45vh;
-    height:auto;
-    object-fit: contain;
-    
+}
+.logo img{
+    width: 200px;
+    margin-bottom: 30%;
+    height: auto;
 }
 .menu-container{
     display: flex;
@@ -58,10 +63,13 @@ font-weight: light;
 .Title{
     text-align: center;
     margin-bottom: 15px;
-    background-color: #D6A9B5;
-    border-radius: 20px;
-    border: 7px solid #736165;
-    padding: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    border: 3px solid #736165;
+    text-align: center;
+    background-image: url(images/bow1.jpeg);
+    background-size: cover;
+    background-position: center;
     min-height: 120px;
 }
 .Title h1{
@@ -143,17 +151,15 @@ font-weight: light;
 }
 .footer{
     display: flex;
-    align-items: center;
+    text-align: center;
     justify-content: space-around;
-    background-color: #debbc1c0;
-    border: 7px solid #736165;
-    border-radius: 20px;
-    padding: 30px;
-    margin-bottom: 10px;
-    min-height: 10px;
     font-size: 20px;
-    font-family: georgia, sans-serif;
-   
+    padding: 20px;
+    gap: 30px;
+    margin-right: 20px;
+    font-family: Bodoni Book, serif;
+    text-decoration: none;
+    color: #614735;
 }
 @media only screen and (max-width: 1000px) {
     .dessert-categories img{
