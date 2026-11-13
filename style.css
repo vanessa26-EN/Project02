@@ -63,7 +63,7 @@ body{
     background-position: center;
     min-height: 80vh;
 }
-.welcome h3{
+.welcome h1{
     font-size: 100px;
     margin-bottom: 20px;
     color: #8F2C1E;
@@ -110,10 +110,12 @@ p{
     font-size: 20px;
     padding: 20px;
     gap: 30px;
-    margin-right: 20px;
-    font-family: Bodoni Book, serif;
+}
+.footer a{
     text-decoration: none;
     color: #614735;
+    margin-right: 20px;
+    font-family: Bodoni Book, serif;
 }
 .favorites{
    display: flex;
@@ -136,7 +138,7 @@ p{
     width:60%;
     height: auto;
     object-fit: cover;
-    border-radius: 20px;}
+    }
 
 *{
     box-sizing: border-box;
@@ -148,11 +150,8 @@ p{
     width: 60px;
     background-color: #F7ECED ;
     text-align: center;
-    flex:0 1 30%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
+    flex:0 1 30%;}
+
 
 .gallery p{
     font-size: 14px;
