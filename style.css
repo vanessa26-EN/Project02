@@ -23,13 +23,13 @@ body{
     justify-content: flex-end;
     display: flex;
     gap: 30px;
+    padding: 20px;
     align-items: center;
-    padding: 20px 190px;
     font-size: 25px;
     font-style: italic;
     font-weight: bold;
     font-family: bodoni book, serif;
-    margin-right: 80px;
+
 }
 .nav-right{
     justify-content: flex-start;
@@ -37,17 +37,23 @@ body{
     display: flex;
     align-items: center;
     gap: 30px;
-    padding: 20px 190px;
+    padding: 20px;
     font-weight: bold;
     font-family: bodoni book, serif;
     font-style: italic;
-    margin-left: 80px;
+
 }
 .nav-left a, .nav-right a{
     text-decoration: none;
     color: #614735;
     align-items: center;
     display: flex;
+}
+.logo img{
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+    margin-left: 10%;
 }
 /*Welcome*/
 .welcome{ 
@@ -85,11 +91,6 @@ p{
     margin-top: 1px;
 }
 
-.logo img{
-    width: 200px;
-    margin-bottom: 30%;
-    height: auto;
-}
 .slideshow{
     display:flex;
     height: 100%;
