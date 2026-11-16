@@ -22,13 +22,13 @@ body{
     justify-content: flex-end;
     display: flex;
     gap: 30px;
+    padding: 20px;
     align-items: center;
-    padding: 20px 190px;
     font-size: 25px;
     font-style: italic;
     font-weight: bold;
     font-family: bodoni book, serif;
-    margin-right: 80px;
+
 }
 .nav-right{
     justify-content: flex-start;
@@ -36,11 +36,11 @@ body{
     display: flex;
     align-items: center;
     gap: 30px;
-    padding: 20px 190px;
+    padding: 20px;
     font-weight: bold;
     font-family: bodoni book, serif;
     font-style: italic;
-    margin-left: 80px;
+
 }
 .nav-left a, .nav-right a{
     text-decoration: none;
@@ -51,15 +51,24 @@ body{
 .logo img{
     width: 200px;
     height: auto;
+    object-fit: cover;
+    margin-left: 10%;
 }
 .footer{
-   display: flex;
+    display: flex;
     text-align: center;
     justify-content: space-around;
     font-size: 20px;
     padding: 20px;
     gap: 30px;
-    margin-right: 20px;}
+    margin-right: 20px;
+}
+.footer a{
+    text-decoration: none;
+    color: #614735;
+    margin-right: 20px;
+    font-family: Bodoni Book, serif;
+}
 .recipes-section{
     display: flex;
     flex-direction: column;
@@ -85,7 +94,7 @@ body{
     color: #614735;
     font-family: bodoni book, serif;
     text-align: center;
-    margin-top: -50px;
+    margin-top: -20px;
 }
 .recipes-list{
     display: flex;
