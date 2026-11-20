@@ -273,6 +273,7 @@ body{
     background-image: url(images/circle.jpeg);
     background-repeat: no-repeat;
     background-size: contain;
+    margin-left: 15px;
 }
 .item img{
     width: 190px;

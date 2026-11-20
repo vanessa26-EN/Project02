@@ -181,3 +181,73 @@ p{
     display: table;
     clear: both;
 }
+.aboutus{
+    border-radius: 30px;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+}
+.aboutus h2{
+    font-size: 70px;
+    color: #8F2C1E;
+    text-align: center;
+    font-family: Marlon, cursive;
+}
+.aboutus p{
+   font-size: 30px;
+    color: #614735;
+    text-align: center;
+    font-family: bodoni book, serif; 
+    padding-bottom: 40px;
+}
+.leave-a-comment{
+    max-width: 600px;
+    width:100%;
+    border-radius:4px; 
+    border: 2px solid #614735;
+    padding: 20px;
+    align-content: center;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+
+}
+.label{
+    min-width: 48%;
+    margin-bottom: 10px;   
+
+}
+.input[type=text],select{
+    min-width: 50%;
+    margin-bottom: 10px;
+    border:1px solid #614735;
+    border-radius: 4px;
+    padding:10px;
+}
+.textarea{
+    min-width: 45%;
+    height:150px;
+    margin-bottom: 10px;
+    border:1px solid #614735;
+    border-radius: 4px;
+    padding:10px;
+}
+input[type=sumbit]{
+    width:100%;
+    color:#8F2C1E;
+    padding: 14px;
+    margin:8px 0;
+    border:none;
+    border-radius: 4px;
+    cursor:pointer;
+}
+@media screen and (max-width: 600px) {
+  label,
+  input[type=text],
+  input[type=submit],
+  select, textarea {
+    flex: 100%;
+    min-width: 100%;
+  }
+}

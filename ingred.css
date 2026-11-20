@@ -72,7 +72,7 @@ body{
 .recipe-container{
     text-align: center;
     align-items: center;
-    background-image: url(images/bow1.jpeg);
+    background-image: url(images/backgroun2.jpeg);
     background-size: cover;
     background-position: center;
     box-sizing: border-box;
@@ -130,15 +130,16 @@ body{
 }
 .ingredients{
     width: 40%;
-    min-height: auto;
-    margin-left: 30px;
-    margin-right: 20px;
+    min-height: 30px;
+    margin-left: 32px;
+    margin-right: 32px;
     background-image: url(images/bow.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 76px;
     border-radius: 10px;
+    padding:75px 30px;
+    min-height: auto;
     box-sizing: border-box;
     align-items: center;
     color:#736165; 
@@ -161,10 +162,10 @@ body{
    background-image: url(images/bow.jpeg);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     box-sizing: border-box;
-    min-height: 40px;
-     padding: 30px;
+    min-height: auto;
+    padding:10px 20px;
     border-radius: 10px;
     align-items: center;
       color:#736165; 
